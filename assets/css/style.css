@@ -49,10 +49,19 @@ b {
   margin-top: 5rem;
   width: 500px;
   height: 600px;
-  box-shadow: 0 0 8rem 2rem rgba(126, 255, 90, 0.5);
+  box-shadow: 0 0 8rem 4rem rgba(126, 255, 90, 0.5);
   border: 2px double #1c291c;
 }/*# sourceMappingURL=style.css.map */
 
 div {
   font-size: 1.5em
+}
+
+.faq {
+  color: greenyellow;
+  text-align: center;
+  /* background-color: white; */
+  background-image: url(cat_background.png);
+  text-shadow: 4px 4px #ff0000;
+
 }

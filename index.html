@@ -17,7 +17,7 @@
 <h1 class="title">OPpy_CAT</h1>
 
        </div>
-       <div style="width: 100%; justify-content: center; align-items: center; display: flex;">
+       <div style="width: 100%; justify-content: center; align-items: center; display: flex; ;">
         <canvas id="canvas"></canvas>
 
        </div>
@@ -26,15 +26,18 @@
 
        <div >
         
-        <div>
+        <div class="faq">
             FAQ<br/>
             Q: What is OP_CAT? <br/>
-            The short answer: The future of bitcoin
-            <br />
-            The long answer:
-            OP_CAT is a new opcode that has sparked considerable debate within the cryptocurrency community 1. Unlike some other proposals for extending Bitcoin Script, OP_CAT is extremely simple to implement, simple to understand, and immediately makes Script much easier to use 1. It is a covenant system that can impose certain restrictions on the spending transaction, such as requiring that the spending transaction have an output that is exactly 1.0 BTC, or might have an output that pays out only to a very specific address 1.
+            The OP_CAT opcode in Bitcoin's scripting language was initially part of Bitcoin's early versions but was disabled due to concerns about potential vulnerabilities. It was designed to concatenate two strings but was disabled early in Bitcoin's history. Re-enabling OP_CAT is considered a relatively simple change to the Bitcoin Core code and would require only a soft fork, which is less contentious and requires less coordination among stakeholders compared to a hard fork. The last significant soft fork in Bitcoin occurred in 2021 with the activation of Taproot. <br /><br />
 
-The proposal to reintroduce OP_CAT has been met with enthusiasm by some and skepticism by others 2. The reintroduction of OP_CAT could be a gateway to magic or a double-edged sword 
+The reintroduction of OP_CAT could significantly expand Bitcoin's script capabilities. In Bitcoin Cash, for example, OP_CAT has been re-enabled and is used in the creation and management of tokens, payment channels, and methods for embedding and retrieving data on the blockchain. This opcode is also enabled on Blockstream’s Liquid side chain, where it facilitates decentralized token exchange.<br /><br />
+
+However, it's important to note that Bitcoin's governance and update process is slow and involves consensus among developers and adoption by full nodes, including miners. Despite the technical and governance challenges, proponents of OP_CAT argue that reintroducing this opcode can enhance Bitcoin's functionality without the need for a contentious hard fork.<br /><br />
+
+One proposed Bitcoin Improvement Proposal (BIP) for OP_CAT outlines its functionality in tapscript. OP_CAT would allow the concatenation of two values on the stack, enhancing the expressiveness and power of tapscript. It would enable the creation of complex data structures like merkle trees and support advanced functionalities such as tree signatures, post-quantum Lamport signatures, non-equivocation contracts in payment channels, vaults for security against key compromise, and more complex smart contracts and covenants. The opcode would be activated via a soft fork by redefining an existing opcode (OP_SUCCESS80). <br /><br />
+
+The re-introduction of OP_CAT is seen by some in the community as a necessary evolution for Bitcoin, allowing it to serve a broader range of functions and potentially cater to billions of people. However, this perspective is not universally shared, with some arguing that Bitcoin should change very slowly and deliberately, if at all​​​​​​.
             
         </div>
        </div>
