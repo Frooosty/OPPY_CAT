@@ -383,7 +383,7 @@ UI.tap[0].tapImg.src = "assets/images/start&over_game_img/1_tap.png";
 UI.tap[1].tapImg.src = "assets/images/start&over_game_img/2_tap.png";
 // TODO AUDIO SRC
 SFX.start.src = "assets/audio/Main_sounds/start.wav";
-SFX.flap.src = "assets/audio/Main_sounds/flap.wav";
+SFX.flap.src = "assets/audio/Main_sounds/meow.wav";
 SFX.score.src = "assets/audio/Main_sounds/score.wav";
 SFX.hit.src = "assets/audio/Main_sounds/hit.wav";
 SFX.bg.src = "assets/audio/bg_songs/bg.mp3";
