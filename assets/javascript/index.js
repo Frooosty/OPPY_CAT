@@ -46,10 +46,13 @@ const playingObject = {
   frames: 0,
   position: { x: 60, y: 50 },
   speed: 0,
-  gravity: 0.125,
+  gravity: 0.1,
   thrust: 2.6,
   rotatation: 0,
   imgAnimation: [
+    { playObjectImg: new Image() },
+    { playObjectImg: new Image() },
+    { playObjectImg: new Image() },
     { playObjectImg: new Image() },
     { playObjectImg: new Image() },
     { playObjectImg: new Image() },
@@ -355,18 +358,24 @@ gameLoop();
 // ─── ALL SOURCE SEE DOWN BELOW ──────────────────────────────────────────────────
 // TODO BRID IMGS
 playingObject.imgAnimation[0].playObjectImg.src =
-  "assets/images/brid_img/1_brid.png";
+  "assets/images/brid_img/cat0000.png";
 playingObject.imgAnimation[1].playObjectImg.src =
-  "assets/images/brid_img/2_brid.png";
+  "assets/images/brid_img/cat0119.png";
 playingObject.imgAnimation[2].playObjectImg.src =
-  "assets/images/brid_img/3_brid.png";
+  "assets/images/brid_img/cat0002.png";
+playingObject.imgAnimation[3].playObjectImg.src =
+  "assets/images/brid_img/cat0009.png";
+playingObject.imgAnimation[4].playObjectImg.src =
+  "assets/images/brid_img/cat0022.png";
+playingObject.imgAnimation[5].playObjectImg.src =
+  "assets/images/brid_img/cat0129.png";
 // TODO BACKGROUND IMGS
-background.backgroundImg.src = "assets/images/ground/background.png";
+background.backgroundImg.src = "assets/images/ground/cat_background.png";
 // TODO GROUND IMGS
 ground.groundImg.src = "assets/images/ground/1_ground.png";
 // TODO PIPE IMGS
-pipe.topPipe.pipeImg.src = "assets/images/pipe_img/toppipe.png";
-pipe.bottomPipe.pipeImg.src = "assets/images/pipe_img/botpipe.png";
+pipe.topPipe.pipeImg.src = "assets/images/pipe_img/cat0112.png";
+pipe.bottomPipe.pipeImg.src = "assets/images/pipe_img/cat-0122.png";
 // TODO UI IMGS
 UI.game[0].start.src = "assets/images/start&over_game_img/getready.png";
 UI.game[1].over.src = "assets/images/start&over_game_img/gameOver.png";
