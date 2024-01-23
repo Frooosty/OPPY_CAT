@@ -64,4 +64,8 @@ div {
   background-image: url(cat_background.png);
   text-shadow: 4px 4px #ff0000;
 
+  span {
+    background-color: #468944;
+  }
+
 }
